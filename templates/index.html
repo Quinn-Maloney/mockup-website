@@ -1,0 +1,29 @@
+<!--Description: The index page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} Index {% endblock %}
+
+<!-- main content -->
+{% block maincontent %}
+    <p>This Lifeguard Conference is designed to teach participants the knowledge and skills necessary to prevent <br />
+        and respond to aquatic emergencies. The course content will prepare participants to recognize and respond <br />
+        quickly and effectively to emergencies as well as prevent drownings and injuries at facilities. All candidates <br />
+        must be at least 16 years of age at the start of the session.</p>
+
+    <div id="img1">
+        <img src="../static/images/lifeguard-pool.jpg" alt="Lifeguard watching a Pool" title="Lifeguard"
+             width="550" height="300" />
+    </div>
+
+    <div id="date"><h3>Conference Date:</h3>
+        <p>July 20th, 2021</p>
+    </div>
+
+    <p>The main roles of a lifeguard are to prevent accidents by spotting potential hazards before they <br />
+        become life threatening, and to respond to emergencies when they occur.</p>
+
+    <p>Additionally, they also educate the public about the potential risks associated in aquatic facilities <br />
+        and how to prevent these risks and be safe during aquatic activities.</p>
+{% endblock %}

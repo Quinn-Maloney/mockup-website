@@ -1,0 +1,37 @@
+Registration_date,Title,firstName,lastName,Street,Suite,City,State,Zip,Phone,email,website,position,company,session1,session2,session3
+2016-06-17,Ms.,Jill,Jackson,123 Main St,Apt. 183,Denver,CO,80302,303-123-4567,jill@fake.com,http://www.regis.edu,Web Developer,Regis University,Workshop A,Workshop D,Workshop G
+2016-06-17,Mr.,John,Smith,150 S. Pennsylvania St.,,Denver,CO,80112,303-123-7896,JS@fake.com,http://www.regis.edu,IT Manager,Really Big Company,Workshop B,,Workshop I
+2016-06-17,Dr.,Lucy,Robertson,2396 Apple Blossom Lane.,,Bentonville,AR,72703,303-222-3333,lrobertson@fake.com,http://www.regis.edu,Senior Developer,Walmart,Workshop B,,Workshop G
+2016-06-17,Mr.,Benjamin,Reyes,434 Rodeo Dr.,,Austin,TX,45678,303-111-2222,benreyes@fake.com,http://www.regis.edu,Quality Control Lead,Quality Is Us!,Workshop A,Workshop F,Workshop H
+2016-06-17,Dr.,Ada,Lovelace,3333 Regis Blvd Dr.,Office # 54,Denver,CO,80333,303-333-4444,ada@fake.com,http://www.regis.edu,Mathematician,Regis University,Workshop B,,Workshop G
+2016-06-17,Mr.,Bill,Gates,123 Microsoft Dr.,,Redmond,WA,80333,303-444-5555,bill@fake.com,http://www.regis.edu,Computer Programmer,Microsoft,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Corrinne,Yu,123 Microsoft Dr.,,Santa Monica,CA,12345,303-555-6666,corrine@fake.com,http://www.regis.edu,Game Programmer,Naughty Dog,Workshop B,,Workshop I
+2016-06-17,Dr.,Donald,Knuth,450 Serra Mall,,Standford,CA,94305,303-666-7777,donald@fake.com,http://www.regis.edu,Professor,Stanford University,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Audrey,Tang,123 Other Main St,,San Jose,CA,95132,303-777-8888,audrey@fake.com,http://www.regis.edu,Software Programmer,Pugs Project,Workshop C,Workshop F,Workshop H
+2016-06-17,Ms.,Jill2,Jackson,123 Main St,Apt. 183,Denver,CO,80302,303-123-4567,jill@fake.com,http://www.regis.edu,Web Developer,Regis University,Workshop A,Workshop F,Workshop H
+2016-06-17,Mr.,John2,Smith,150 S. Pennsylvania St.,,Denver,CO,80112,303-123-7896,JS@fake.com,http://www.regis.edu,IT Manager,Really Big Company,Workshop B,,Workshop I
+2016-06-17,Dr.,Lucy2,Robertson,2396 Apple Blossom Lane.,,Bentonville,AR,72703,303-222-3333,lrobertson@fake.com,http://www.regis.edu,Senior Developer,Walmart,Workshop B,,Workshop G
+2016-06-17,Mr.,Benjamin2,Reyes,434 Rodeo Dr.,,Austin,TX,45678,303-111-2222,benreyes@fake.com,http://www.regis.edu,Quality Control Lead,Quality Is Us!,Workshop A,Workshop F,Workshop H
+2016-06-17,Dr.,Ada2,Lovelace,3333 Regis Blvd Dr.,Office # 54,Denver,CO,80333,303-333-4444,ada@fake.com,http://www.regis.edu,Mathematician,Regis University,Workshop B,,Workshop G
+2016-06-17,Mr.,Bill2,Gates,123 Microsoft Dr.,,Redmond,WA,80333,303-444-5555,bill@fake.com,http://www.regis.edu,Computer Programmer,Microsoft,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Corrinne2,Yu,123 Microsoft Dr.,,Santa Monica,CA,12345,303-555-6666,corrine@fake.com,http://www.regis.edu,Game Programmer,Naughty Dog,Workshop B,,Workshop I
+2016-06-17,Dr.,Donald2,Knuth,450 Serra Mall,,Standford,CA,94305,303-666-7777,donald@fake.com,http://www.regis.edu,Professor,Stanford University,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Audrey2,Tang,123 Other Main St,,San Jose,CA,95132,303-777-8888,audrey@fake.com,http://www.regis.edu,Software Programmer,Pugs Project,Workshop C,Workshop F,Workshop H
+2016-06-17,Ms.,Jill3,Jackson,123 Main St,Apt. 183,Denver,CO,80302,303-123-4567,jill@fake.com,http://www.regis.edu,Web Developer,Regis University,Workshop A,Workshop F,Workshop H
+2016-06-17,Mr.,John3,Smith,150 S. Pennsylvania St.,,Denver,CO,80112,303-123-7896,JS@fake.com,http://www.regis.edu,IT Manager,Really Big Company,Workshop B,,Workshop I
+2016-06-17,Dr.,Lucy3,Robertson,2396 Apple Blossom Lane.,,Bentonville,AR,72703,303-222-3333,lrobertson@fake.com,http://www.regis.edu,Senior Developer,Walmart,Workshop B,,Workshop G
+2016-06-17,Mr.,Benjamin3,Reyes,434 Rodeo Dr.,,Austin,TX,45678,303-111-2222,benreyes@fake.com,http://www.regis.edu,Quality Control Lead,Quality Is Us!,Workshop A,Workshop D,Workshop H
+2016-06-17,Dr.,Ada3,Lovelace,3333 Regis Blvd Dr.,Office # 54,Denver,CO,80333,303-333-4444,ada@fake.com,http://www.regis.edu,Mathematician,Regis University,Workshop B,,Workshop G
+2016-06-17,Mr.,Bill3,Gates,123 Microsoft Dr.,,Redmond,WA,80333,303-444-5555,bill@fake.com,http://www.regis.edu,Computer Programmer,Microsoft,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Corrinne3,Yu,123 Microsoft Dr.,,Santa Monica,CA,12345,303-555-6666,corrine@fake.com,http://www.regis.edu,Game Programmer,Naughty Dog,Workshop B,,Workshop I
+2016-06-17,Dr.,Donald3,Knuth,450 Serra Mall,,Standford,CA,94305,303-666-7777,donald@fake.com,http://www.regis.edu,Professor,Stanford University,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Audrey3,Tang,123 Other Main St,,San Jose,CA,95132,303-777-8888,audrey@fake.com,http://www.regis.edu,Software Programmer,Pugs Project,Workshop C,Workshop F,Workshop H
+2016-06-17,Ms.,Jill4,Jackson,123 Main St,Apt. 183,Denver,CO,80302,303-123-4567,jill@fake.com,http://www.regis.edu,Web Developer,Regis University,Workshop A,Workshop D,Workshop H
+2016-06-17,Mr.,John4,Smith,150 S. Pennsylvania St.,,Denver,CO,80112,303-123-7896,JS@fake.com,http://www.regis.edu,IT Manager,Really Big Company,Workshop B,,Workshop I
+2016-06-17,Dr.,Lucy4,Robertson,2396 Apple Blossom Lane.,,Bentonville,AR,72703,303-222-3333,lrobertson@fake.com,http://www.regis.edu,Senior Developer,Walmart,Workshop B,,Workshop G
+2016-06-17,Mr.,Benjamin4,Reyes,434 Rodeo Dr.,,Austin,TX,45678,303-111-2222,benreyes@fake.com,http://www.regis.edu,Quality Control Lead,Quality Is Us!,Workshop A,Workshop D,Workshop H
+2016-06-17,Dr.,Ada4,Lovelace,3333 Regis Blvd Dr.,Office # 54,Denver,CO,80333,303-333-4444,ada@fake.com,http://www.regis.edu,Mathematician,Regis University,Workshop B,,Workshop G
+2016-06-17,Mr.,Bill4,Gates,123 Microsoft Dr.,,Redmond,WA,80333,303-444-5555,bill@fake.com,http://www.regis.edu,Computer Programmer,Microsoft,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Corrinne4,Yu,123 Microsoft Dr.,,Santa Monica,CA,12345,303-555-6666,corrine@fake.com,http://www.regis.edu,Game Programmer,Naughty Dog,Workshop B,,Workshop G
+2016-06-17,Dr.,Donald4,Knuth,450 Serra Mall,,Standford,CA,94305,303-666-7777,donald@fake.com,http://www.regis.edu,Professor,Stanford University,Workshop A,Workshop D,Workshop I
+2016-06-17,Ms.,Audrey4,Tang,123 Other Main St,,San Jose,CA,95132,303-777-8888,audrey@fake.com,http://www.regis.edu,Software Programmer,Pugs Project,Workshop C,Workshop F,Workshop H

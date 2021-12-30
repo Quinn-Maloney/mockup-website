@@ -1,0 +1,128 @@
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The registration page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} Registration {% endblock %}
+
+<!-- main content: -->
+{% block maincontent %}
+    <!-- registration form -->
+    <br />
+    <br />
+    <form action="registration.html" method='POST' name = "myform" id="registrationform" >
+        <fieldset class="details">
+            <legend>
+                Personal Information:
+            </legend>
+            <label for="conferenceId">
+                Conference ID number:<input type="text" id="conferenceId" name="ID" size="30" maxlength="30" placeholder="xxxxxx" required="required">
+            </label>
+            <label for="name">
+                Name:
+                <input type="text" id="name" name="name" required="required"
+                       placeholder="Please enter your first and last name"
+                       title="Your name is required" size="30" maxlength="100" >
+            </label>
+            <br />
+            <label for="address">
+                Address:
+                <input type="text" id="address" name="address" placeholder="Street Address" size="30" maxlength="100">
+            </label>
+            <br />
+            <label for="city1">
+                City:<input type="text" id="city1" name="city" placeholder="New York">
+            </label>
+
+            <label for="state1">
+                State:<input type="text" id="state1" name="state" placeholder="NY">
+            </label>
+
+            <label for="zip1">
+                Zip:<input type="text" id="zip1" name="zip" placeholder="10001">
+            </label>
+            <br />
+            <label for="email">
+                Email:
+                <input type="email" id="email" name="email" size="30" maxlength="100">
+            </label>
+            <br />
+            <label for="tel">
+                Telephone Number:
+                <input type="tel" id="tel" name="telenumber" required="required"
+                placeholder="xxx-xxx-xxxx">
+            </label>
+        </fieldset>
+        <br />
+        <fieldset class="url">
+            <legend>
+                Company Information:
+            </legend>
+
+            <label for="companyName">
+                Company Name:<input type="text" id="companyName" name="name" size="30" maxlength="100">
+            </label>
+            <br />
+            <label for="position">
+                Position in company:<input type="text" id="position" name="position" size="30" maxlength="100">
+            </label>
+            <br />
+            <label for="url">
+                Company url:
+                <input type="url" name="webpageurl" id="url"/>
+            </label>
+        </fieldset>
+        <br />
+        <fieldset class="workshopInfo">
+            <legend>
+                Workshop Information:
+            </legend>
+            <label>
+                Session 1 - What it means to be a lifeguard
+            </label>
+            <fieldset id="group1">
+                <input type="radio" id="A" value="1" name="group1" onclick="registrationRestriction()" required/>
+                <label for="A">Expected lifeguard professionalism </label>
+                <br>
+                <input type="radio" id="B" value="1" name="group1" onclick="registrationRestriction()"/>
+                <label for="B">The drowning process and how to recognize a guest in distress</label>
+                <br>
+                <input type="radio" id="C" value="1" name="group1" onclick="registrationRestriction()"/>
+                <label for="C">How to recognize a guest in distress</label>
+                <br>
+            </fieldset>
+            <label>Session 2 - Emergency Action Plan</label>
+            <fieldset id="group2">
+                <input type="radio" id="D" value="1" name="group2" onclick="registrationRestriction()"/>
+                <label for="D">Adult and pediatric rescue breathing</label>
+                <br>
+                <input type="radio" id="E" value="1" name="group2" onclick="registrationRestriction()"/>
+                <label for="E">Adult and pediatric CPR and AED training</label>
+                <br>
+                <input type="radio" id="F" value="1" name="group2" onclick="registrationRestriction()"/>
+                <label for="F">Choking and obstructed airway scenarios</label>
+                <br>
+            </fieldset>
+            <label>Session 3 - First Aid Care</label>
+            <fieldset id="group3">
+                <input type="radio" id="G" value="1" name="group3" onclick="registrationRestriction()"/>
+                <label for="G">The types of bleeding and how to treat them</label>
+                <br>
+                <input type="radio" id="H" value="1" name="group3" onclick="registrationRestriction()"/>
+                <label for="H">The types of burns and how to treat them</label>
+                <br>
+                <input type="radio" id="I" value="1" name="group3" onclick="registrationRestriction()"/>
+                <label for="I">How to treat guests suffering from shock, seizure, heart attack, and stroke</label>
+                <br>
+            </fieldset>
+        </fieldset>
+        <br />
+        <p>Please remember to submit your information.</p>
+        <input type="submit" name="submit" id="submitValue" value="Submit" onclick="setCookie()">
+    </form>
+    <script src="../static/js/script.js"></script>
+{% endblock %}
+

@@ -1,0 +1,47 @@
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The workshop schedule page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} Workshop Schedule {% endblock %}
+
+<!-- Main content: -->
+{% block maincontent %}
+    <h1>Lifeguard Training Conference Workshop Schedule</h1>
+    <!-- Workshop schedule table -->
+    <br>
+    <br>
+    <table id="workshop">
+        <tr id="headings">
+            <th>Day</th>
+            <th>Session</th>
+            <th>Workshop Title</th>
+            <th>Speaker</th>
+            <th>Room</th>
+            <th>Time</th>
+        </tr>
+        {% for workshop in workshops %}
+        <tr id="row{{ (loop.index0//2) + 1 }}">
+            <td>{{ workshop['timeslot'] }}</td>
+            <td>{{ workshop['session'] }}</td>
+            <td>{{ workshop['workshop_title1'] }}<br>
+                {{ workshop['workshop_title2'] }} <br>
+                {{ workshop['workshop_title3'] }}</td>
+            <td>{{ workshop['speaker1'] }}<br>
+                {{ workshop['speaker2'] }}<br>
+                {{ workshop['speaker3'] }}</td>
+            <td>{{ workshop['room_number1'] }}<br>
+                {{ workshop['room_number2'] }}<br>
+                {{ workshop['room_number3'] }}</td>
+            <td>{{ workshop['start_time'] }}{{ workshop['stop_time'] }}<br>
+            {{ workshop['start_time'] }}{{ workshop['stop_time'] }}<br>
+            {{ workshop['start_time'] }}{{ workshop['stop_time'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+
+

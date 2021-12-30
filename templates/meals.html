@@ -1,0 +1,35 @@
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The meal page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} Meals {% endblock %}
+
+<!-- main content: -->
+{% block maincontent %}
+    <!-- Menu -->
+    <h3 class="menu">Menu:</h3>
+        <div class="menuCol1of2">
+            <img src="../static/images/photo1.jpg" alt="Long dark road" title="Road" width="80" height="90" /> <br>
+            <h4>Menu Day 1</h4>
+            <h6>Breakfast</h6> <p>Toast, Fruit, Tea</p>
+            <h6>Lunch</h6>  <p>Burger, Hot dog, Fries</p>
+            <h6>Dinner</h6> <p>Salad, Steak, Soda</p>
+
+        </div>
+
+        <div class="menuCol2of2">
+            <img src="../static/images/photo2.jpg" alt="Picture of two colorful buildings" title="Buildings" width="80"
+                  height="90" /> <br>
+            <h4>Menu Day 2</h4>
+            <h6>Breakfast</h6> <p>Toast, Fruit, Tea</p>
+            <h6>Lunch</h6>  <p>Burger, Hot dog, Fries</p>
+            <h6>Dinner</h6> <p>Salad, Lobster, Soda</p>
+
+        </div>
+    <p>Full Meal Package: $250.00 (includes Dinner Day 2) <br>
+        Dinner Day 2: $75.00</p>
+{% endblock %}

@@ -1,0 +1,22 @@
+
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The thank you page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} ThankYou {% endblock %}
+
+<!-- main content: -->
+{% block maincontent %}
+    <p class="thankyou"><br>Dear {{ request.form['name'] }}, <br> <br>
+    We would like to say thank you for spending the time looking through our<br>
+     Lifeguard Training Conference website. We hope your time here was <br>
+    educational in many aspects. Feel free to continue checking our site <br>
+    for more updates in the future. <br>
+    <br>
+    Sincerely, <br>
+    Lifeguard Training Services</p>
+{% endblock %}

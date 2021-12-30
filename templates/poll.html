@@ -1,0 +1,33 @@
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The poll results page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+<!-- Title -->
+{% block title %} Poll {% endblock %}
+
+<!-- main content -->
+{% block maincontent %}
+    <div class="pollForm">
+    <label>
+        <br />
+        <br />
+        <form method="get" id="poll">
+
+            <b>Select which entry is your favorite:</b> <br />
+            <span id="count1"><input for="1" type="radio" name="entry" id="1" value="Entry 1" checked="checked" /> Entry 1 </span> <br />
+            <input for="2" type="radio" name="entry" id="2" value="Entry 2" /> Entry 2 <br />
+            <input for="3" type="radio" name="entry" id="3" value="Entry 3" /> Entry 3 <br />
+            <button type="submit" class="btn" onclick="vote()">Submit</button>
+        </form>
+    </label>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+    <br />
+    <p class="poll">Sorry for the wait, the poll results will be in soon. <br>
+        We thank you for your understanding.</p>
+{% endblock %}
+

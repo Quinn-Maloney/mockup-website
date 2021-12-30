@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description:This will be the template all the rest of the templates (except nav.html) will extend. -->
+
+<!--This will be the template all the rest of the templates
+      (except nav.html) will extend. -->
+
+
+<!-- Title -->
+<head>
+    {% block head %}
+    <title>{% block title %} {% endblock %}</title>
+    <link href="../static/css/webdefault.css" type="text/css" rel="stylesheet" />
+    <link href="../static/css/nametags8gen.css" type="text/css" rel="stylesheet" />
+    <link href="../static/css/nametags10gen.css" type="text/css" rel="stylesheet" />
+
+    <!--  Meta Elements: -->
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="encoding" content="utf-8" >
+    <meta name="description"
+          content="Lifeguard Training Course" />
+    <meta name="keywords"
+          content="Lifeguard Training" />
+    <meta name="robots"
+          content="index, follow" />
+    <meta name="author"
+          content="Quinn Maloney" />
+    <meta name="pragma"
+          content="no-cache" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    {% endblock %}
+</head>
+<!-- Page Structure: -->
+<body>
+<header>
+    <h1>Lifeguard Training Conference Information</h1>
+    <nav>
+        <div>
+            {% block navcontent %}
+                {% include 'nav.html' %}
+            {% endblock %}
+        </div>
+    </nav>
+</header>
+<!-- main content -->
+<main>
+    {% block maincontent %}
+        {{ name }}
+    {% endblock %}
+</main>
+
+<!-- footer -->
+<footer>
+    <div id="footer">
+        {% block footer %}
+        <h3>Author Information</h3>
+        <address>
+            <p><small><a href="mailto:qmaloney@regis.edu"> qmaloney@regis.edu</a></small><br />
+                <small>1234 Example St., Springfield.</small><br />
+                <small>(123)-456-7891</small></p>
+            <p><small>While this web site was created to satisfy the requirement of <br />
+                building a web site for an academic course at Regis University, the <br />
+                views and opinions expressed on this web site are solely those of <br />
+                the original author and do not necessarily represent the views and <br />
+                opinions of Regis University.</small></p>
+        </address>
+        {% endblock %}
+    </div>
+</footer>
+</body>
+</html>

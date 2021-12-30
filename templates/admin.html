@@ -1,0 +1,29 @@
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The admin page for the conference site.  -->
+{% extends 'base.html' %}
+<!-- Title -->
+{% block title %} Admin {% endblock %}
+
+
+
+
+{% block maincontent %}
+    <div class="nametags">
+        <h1>This page allows you to view nametags</h1>
+        <h2>Nametags</h2>
+
+
+        <!-- Python generated 8 per page -->
+        <div class="nametags8Py">
+            <a href="nametags8gen.html">nametags8 (python generated)</a>
+        </div>
+        <!-- Python generated 10 per page -->
+        <div class="nametags10Py">
+            <a href="nametags10gen.html">nametags10 (python generated)</a>
+        </div>
+    </div>
+{% endblock %}
+
+

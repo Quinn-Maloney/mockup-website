@@ -1,0 +1,74 @@
+.fs22 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: green;
+}
+
+.fs12 {
+    font-size: 12pt;
+}
+
+.fs14B {
+    font-size: 14pt;
+    font-weight: bold;
+    color: red;
+}
+
+/* pagesize */
+.pagesize {
+    height: 11in;
+    width:8.5in;
+    padding:15mm 30mm;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.row1 {
+    grid-column: 1/2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row2 {
+    grid-column: 1/2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row3 {
+    grid-column: 1/2;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row4 {
+    grid-column: 1/2;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* card size */
+.column1 {
+    grid-column: 1;
+    height:59mm;
+    width: 86mm;
+    text-align: center;
+    line-height: 4pt;
+    justify-self: center;
+    align-self: center;
+}
+
+.column2 {
+    grid-column: 2;
+    height:59mm;
+    width: 86mm;
+    text-align: center;
+    line-height: 4pt;
+    justify-self: center;
+    align-self: center;
+}

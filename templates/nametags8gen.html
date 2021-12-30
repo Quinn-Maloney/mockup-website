@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %} Nametags 8 {% endblock %}
+
+
+{% block maincontent %}
+
+{% for registrant in registrants %}
+    {% if loop.index0%8==0 %}
+ <div class="pagesize">
+    {% endif %}
+    {% if loop.index0%2==0 %}
+        <div class="row{{ ((loop.index0%8)//2) + 1 }}">
+        {% endif %}
+            <div class="column{{ (loop.index0 % 2) + 1 }}">
+                <p class="fs22">{{ registrant['firstname'] }}</p>
+                <p class="fs12">{{ registrant['lastname'] }}</p>
+                <p class="fs14B">{{ registrant['position'] }}</p>
+                <p class="fs12">{{ registrant['company'] }}</p>
+                <p class="fs12">{{ registrant['city'] }}, {{ registrant['state'] }}</p>
+            </div>
+    {% if loop.index0%2==1 %}
+        </div>
+    {% endif %}
+
+  {% if loop.index0%8==7 %}
+</div>
+       {% endif %}
+{% endfor %}
+{% endblock %}

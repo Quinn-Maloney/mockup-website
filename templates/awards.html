@@ -1,0 +1,52 @@
+
+<!--    Name: Quinn Maloney
+        Assignment: CS336 Assignment #4
+        Created: 9/15/2021
+        Description: The awards page for the conference site.  -->
+
+{%  extends 'base.html' %}
+
+
+<!-- Title -->
+{% block title %} Awards {% endblock %}
+
+<!-- main content -->
+{% block maincontent %}
+    <div id="awardtable"><h1>Awards</h1>
+    <!-- Table -->
+        <table>
+            <tr>
+                <th>Entry</th>
+                <th>Title</th>
+                <th>Description</th>
+            </tr>
+            {% for nominee in nominees %}
+                {% if loop.index0%2==0 %}
+            <tr class="odd">
+                {% endif %}
+                <td><img src="../static/images/{{nominee['name_of_image_file']}}" alt="Long dark road" title="Road" width="80" height="90" /></td>
+                <td><p>{{ nominee['nominee_name'] }}</p></td>
+                <td>{{ nominee['description'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+
+    <div class="awardsForm">
+    <label>
+        <br />
+        <br />
+        <form method="get" id="awardForm">
+
+            <b>Select which entry is your favorite:</b> <br />
+            <span id="option1"><input for="option1" type="radio" name="entry" id="op1" value="Entry 1" checked="checked" /> Image 1 </span> <br />
+            <input for="option2" type="radio" name="entry" id="op2" value="Entry 2" /> Image 2 <br />
+            <input for="option3" type="radio" name="entry" id="op3" value="Entry 3" /> Image 3 <br />
+            <button type="submit" id="awardsButton" class="btn" onclick="awardsVote()">Submit</button>
+        </form>
+    </label>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+{% endblock %}
